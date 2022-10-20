@@ -11,10 +11,37 @@ body{
 main{
     height: 80vh;
     width: 90vw;
-    background-color: pink;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
 
+section{
+    position: absolute;
+    width: 90vw;
+    height: 100vh;
+}
+
+.immagine{
+    height: 18%;
+    width: 14%;
+    margin-bottom: 10px;
+    background-image: url(https://ilfotografo.it/wp-content/uploads/2021/07/DCM184.feature.jarrodcastaing_1405145051.jpg);
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+}
+
+.testo{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    width: 5vw;
+    height: 2.5vh;
+    background-color: #596775;
+    left: 0;
+    font-size: .9rem;
+    text-align: center;
+    opacity: 0.7;
 }
